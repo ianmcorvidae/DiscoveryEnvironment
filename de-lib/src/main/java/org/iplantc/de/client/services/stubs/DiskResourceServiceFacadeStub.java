@@ -23,6 +23,11 @@ import java.util.Set;
 public class DiskResourceServiceFacadeStub implements DiskResourceServiceFacade {
 
     @Override
+    public void refreshFolder(Folder folder, final AsyncCallback<List<Folder>> callback) {
+
+    }
+
+    @Override
     public DiskResource combineDiskResources(DiskResource from, DiskResource into) {
         return null;
     }
